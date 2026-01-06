@@ -20,6 +20,7 @@ const fetch = (...args) =>
 //                 CORE IDS (LOCKED)
 // ====================================================
 const BOT_TOKEN = process.env.BOT_TOKEN;
+console.log("BOT_TOKEN exists:", !!BOT_TOKEN);
 const GUILD_ID = "1440864949063782536";
 const OWNER_ID = "280466049080623104";
 
