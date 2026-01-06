@@ -33,23 +33,6 @@ if (!BOT_TOKEN) {
 }
 
 // ====================================================
-//                 DISCORD CLIENT
-// ====================================================
-const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent
-  ],
-  partials: [Partials.Channel]
-});
-
-client.once(Events.ClientReady, (c) => {
-  console.log(`✅ Logged in as ${c.user.tag}`);
-});
-
-
-// ====================================================
 //                    CHANNEL IDS
 // ====================================================
 const CHANNELS = {
@@ -241,6 +224,10 @@ const client = new Client({
   ],
   partials: [Partials.Channel, Partials.Message]
 });
+client.once(Events.ClientReady, (c) => {
+  console.log(`✅ Logged in as ${c.user.tag}`);
+});
+
 
 // keep bot alive if discord throws a random async error
 process.on("unhandledRejection", (e) => console.error("UnhandledRejection:", e));
