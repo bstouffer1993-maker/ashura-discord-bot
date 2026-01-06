@@ -25,6 +25,31 @@ const GUILD_ID = "1440864949063782536";
 const OWNER_ID = "280466049080623104";
 
 // ====================================================
+//                 SAFETY CHECK (REQUIRED)
+// ====================================================
+if (!BOT_TOKEN) {
+  console.error("❗ Missing BOT_TOKEN environment variable. Set BOT_TOKEN in Railway → Service → Variables.");
+  process.exit(1);
+}
+
+// ====================================================
+//                 DISCORD CLIENT
+// ====================================================
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ],
+  partials: [Partials.Channel]
+});
+
+client.once(Events.ClientReady, (c) => {
+  console.log(`✅ Logged in as ${c.user.tag}`);
+});
+
+
+// ====================================================
 //                    CHANNEL IDS
 // ====================================================
 const CHANNELS = {
