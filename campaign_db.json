@@ -1,0 +1,17 @@
+{
+  "status": {
+    "name": "Chains in the Sky",
+    "goal": 10000,
+    "totalEmber": 27,
+    "startedAt": 1764102424469,
+    "endedAt": 0,
+    "isActive": true
+  },
+  "contributors": {
+    "280466049080623104": {
+      "ember": 27,
+      "lastContributeAt": 1764102478472,
+      "enlistedAt": 1764102446176
+    }
+  }
+}

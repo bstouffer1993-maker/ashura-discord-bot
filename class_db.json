@@ -1,0 +1,19 @@
+{
+  "280466049080623104": {
+    "class": "Fallen_Phoenix",
+    "level": 99,
+    "xp": 0,
+    "lastTrainAt": 1764200845642,
+    "lastQuestAt": 1764200829605,
+    "locked": true
+  },
+  "1375948209511206982": {
+    "class": "Flamecaller",
+    "level": 1,
+    "xp": 27,
+    "lastTrainAt": 1764134586607,
+    "lastQuestAt": 1764134685283,
+    "lastSparAt": 0,
+    "locked": false
+  }
+}

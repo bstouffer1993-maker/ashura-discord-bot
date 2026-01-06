@@ -1,0 +1,96 @@
+{
+  "280466049080623104": {
+    "ownerId": "280466049080623104",
+    "name": "Ashura",
+    "rarity": "Fallen Ascendant",
+    "rarityPower": 6,
+    "element": "Black Flame",
+    "temperament": "Regal",
+    "traits": [
+      "Chain-Breaker",
+      "Night-Watcher",
+      "War-Singer",
+      "Ash-Collector",
+      "Ember-Smith",
+      "Void-Touched"
+    ],
+    "level": 50,
+    "xp": 0,
+    "inventory": [
+      "Crown of the Black Flame",
+      "Endless Ember Core"
+    ],
+    "titlesUnlocked": [
+      "Bearer of the Black Flame",
+      "Ashen Reborn",
+      "Void’s Chosen",
+      "Cinder Sentinel",
+      "Fallen Ascendant"
+    ],
+    "blessingUntil": 4921334989695,
+    "lastFeedAt": 0,
+    "lastMeditateAt": 0,
+    "lastBlessingAt": 0,
+    "lastHuntAt": 0,
+    "lastScoutAt": 0,
+    "lastBondAt": 0,
+    "lastDuelAt": 0,
+    "lastSparAt": 0,
+    "createdAt": 1767734989695,
+    "isAshura": true,
+    "stats": {
+      "might": 50,
+      "ward": 50,
+      "focus": 50,
+      "chaos": 50,
+      "power": 50,
+      "agility": 50,
+      "resolve": 50,
+      "will": 50
+    },
+    "hpMax": 9999,
+    "hpCur": 9999
+  },
+  "__arena": {
+    "queue": []
+  },
+  "1375948209511206982": {
+    "ownerId": "1375948209511206982",
+    "name": "vzbuilderbot_07858's Phoenix",
+    "rarity": "Cinderling",
+    "rarityPower": 1,
+    "element": "Umbral Storm",
+    "temperament": "Trickster",
+    "traits": [
+      "Ember-Smith",
+      "Night-Watcher"
+    ],
+    "level": 1,
+    "xp": 40,
+    "inventory": [
+      "Silent Ember"
+    ],
+    "titlesUnlocked": [],
+    "blessingUntil": 1764155993470,
+    "lastFeedAt": 0,
+    "lastMeditateAt": 0,
+    "lastBlessingAt": 0,
+    "lastHuntAt": 1764138958794,
+    "lastScoutAt": 0,
+    "lastBondAt": 0,
+    "lastDuelAt": 1763788063294,
+    "lastSparAt": 0,
+    "createdAt": 1763788036787,
+    "isAshura": false,
+    "stats": {
+      "might": 14,
+      "ward": 10,
+      "focus": 11,
+      "chaos": 4,
+      "power": 14,
+      "agility": 10,
+      "resolve": 11,
+      "will": 4
+    }
+  }
+}

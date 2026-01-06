@@ -1,0 +1,38 @@
+{
+  "1375948209511206982": {
+    "stats": {
+      "str": 11,
+      "dex": 14,
+      "con": 14,
+      "int": 18,
+      "wis": 14,
+      "cha": 11
+    },
+    "hpMax": 14,
+    "hpCur": 10,
+    "manaMax": 14,
+    "manaCur": 10,
+    "gold": 0,
+    "items": [],
+    "createdAt": 1764134668963
+  },
+  "280466049080623104": {
+    "stats": {
+      "str": 30,
+      "dex": 30,
+      "con": 30,
+      "int": 30,
+      "wis": 30,
+      "cha": 30
+    },
+    "hpMax": 999,
+    "hpCur": 999,
+    "manaMax": 999,
+    "manaCur": 999,
+    "gold": 1125,
+    "items": [
+      "greater_healing_potion"
+    ],
+    "createdAt": 1764134735381
+  }
+}
